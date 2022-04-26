@@ -130,31 +130,4 @@ codeTexte(Fichier)
 print("\nFichier converti avec succès !")
 print("Votre texte est prêt a être consulté sous le nom de TexteConvertiHuffman \n")
 print ("Taux de compression : " + str(TauxCompression(Fichier,'TexteConvertiHuffman.txt')))
-print ("Nb moyen de bits de stockage d'un caractère du texte : " + str(nbMoyenBits()))
-        
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+print ("Nb moyen de bits de stockage d'un caractère du texte : " + str(nbMoyenBits()))     
