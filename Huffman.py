@@ -66,7 +66,7 @@ def Arbre(fichier):
     while len(Arbre)>1:
         Arbre.append(Node(Arbre[0].frequence + Arbre[1].frequence,None,Arbre[0], Arbre[1] ))
         del Arbre[:2] #Supprime les 2 premiers elements
-        sorted(Arbre, key=lambda t: t.frequence)
+        Arbre = sorted(Arbre, key=lambda t: t.frequence)
         
     return Arbre[0] #Correspond à la racine de l'arbre
 
